@@ -192,7 +192,7 @@ if __name__ == "__main__":
     )
 
     thread.start()
-
+    send_telegram("✅ LinkBNB запущен! Связь с Telegram работает.")
     app.run(
         host="0.0.0.0",
         port=int(os.getenv("PORT", 10000))
